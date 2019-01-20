@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainVC.swift
 //  swoosh
 //
 //  Created by Andrii Diachenko on 1/20/19.
@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func unwindFromLeagueVC(unwindSegue: UIStoryboardSegue) {
+
+    }
 
 }
-
